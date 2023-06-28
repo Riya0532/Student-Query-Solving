@@ -1,0 +1,58 @@
+<!-- This file will give frontend look 
+Through this file the user will get an interface to interact with the chatbot. -->
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <style>
+        .detail
+        l{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container that holds all the content inside it -->
+<div class="container">
+    <h1 class="detail">B.Tech Final Year Project</h1><br>
+    <h3 class="detail">Project Title - AKTU Admission Chatbot</h3><br>
+    <ul class="detail">
+        
+        <li>Riya Patel</li>
+        
+    </ul>
+    
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Admission Chatbot </h4>
+                    <p class="chatbox__description--header">Hi, How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <!-- footer which holds a placeholder and send button -->
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="./images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+    <!-- adding javascript file for frontend functioning of button and others -->
+    <script src="./app.js"></script>
+
+</body>
+</html>

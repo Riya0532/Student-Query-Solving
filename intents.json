@@ -1,0 +1,131 @@
+{
+"intents":[
+{
+"tag":"greeting",
+"patterns":[
+"Hi",
+"Hii",
+"Hey",
+"How are you",
+"Is anyone there?",
+"Hello",
+"Goodday"
+],
+"responses":[
+"Hey:-)",
+"Hii",
+"Hello, thanks for visiting",
+"Hi there, what can I do for you?",
+"Hi there, how can I help?"
+]
+},
+{
+"tag":"goodbye",
+"patterns":["Bye","See you later","Goodbye","Thankyou","ok","Thank's a lot!","Thanks"],"responses":[
+"See you later, thanks for visiting",
+"Have a nice day",
+"Byee",
+"Bye! Come back again soon."
+]
+},
+{
+"tag":"thanks",
+"patterns":["Thanks","Thankyou","That's helpful","Thank's a lot!"],"responses":["Happy to help!","Any time!","My pleasure"]
+},
+{
+"tag":"name",
+"patterns":["name","what is your name?","who are you?","what's your name","may i know to whom am talking","may i know your name","your name?"],
+"responses":[
+"Am Anushka Verma, how can I help?",
+"Am Riya Patel, how can I help?",
+"Am Shweta, how can I help?"
+]
+},
+{
+"tag":"thanks",
+"patterns":["Thanks","Thankyou","That's helpful","Thank's a lot!","welcome"],"responses":["Happy to help!","Anytime!","My pleasure"]
+},
+{
+"tag":"Exams",
+"patterns":[
+"When exams will start?",
+"What is date of exam?",
+"Date of Exam",
+"Exam Date",
+"exams",
+"exam"
+],
+"responses":[
+"Date of Exams Even-Semester-2:24/05/2022,Semester-4:26/05/2022,Semester-6:28/05/2022,Semester-8:20/05/2022, Odd- Semester-1:14/12/2022,Semester-3:16/12/2022,Semester-5:18/12/2022,Semester-7:20/12/2022"
+]
+},
+{
+"tag":"Result",
+"patterns":[
+"When result will be declare?",
+"what is the date of result declaration",
+"result",
+"result date of even semester",
+"result date of odd semester"
+],
+"responses":[
+"Result Declaration Date: Even-08/08/2022 Odd-10/02/2022"]
+},
+{
+"tag":"course",
+"patterns":[
+"course",
+"courses",
+"What courses this university provides",
+"what courses",
+"Courses provided",
+"which type of courses provided by your university",
+"which type of courses you provides by your university"
+],
+"responses":[
+"Bachelors or Masters"
+]
+},
+{
+"tag":"Bachelors",
+"patterns":[
+"bachelors",
+"bachelor",
+"B.tech",
+"B.C.A.",
+"B.Arch",
+"Btech",
+"Barch",
+"BArch"
+],
+"responses":[
+"B.Tech in Computer Science and Engg., B.Tech in Electrical Engg., BCA"]
+},
+{
+"tag":"scholarship",
+"patterns":["scholarship"],
+"responses":["scholarship will be provided by state board as per provision"]
+},
+{
+"tag":"admission process",
+"patterns":["admission process" ,"admission process for admission in btech","admission process for mtech","admission process for admission in mtech"],
+"responses":["Step 1. Qualify the exam regarding the course. 2. Counseling   3.Choice filling   4. Wait for Results  5. Document Verification"]
+},
+{
+"tag":"B.tech Eligibility",
+"patterns":["what will be the eligibility criteria for B.tech admission","eligibility for B.tech","eligibility criteria for B.tech admission","qualification for btech admission","entrance test for btech admission"],
+"responses":["JEE qualified with 12th standard from any Govt. recognised Board or LEET qualified with Three Year Diploma from any Govt. recognised University"]
+},
+{
+"tag":"MASTERS",
+"patterns":[
+"masters",
+"master",
+"MBA",
+"M.TECH","M.tech","Mtech","mtech"
+],
+"responses":[
+"MBA, M.Tech in Computer Sceince & Engg., M.tech in Electrical Engg."]
+}
+]
+}
